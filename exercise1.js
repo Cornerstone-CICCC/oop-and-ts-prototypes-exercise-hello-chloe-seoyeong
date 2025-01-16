@@ -12,7 +12,7 @@ function Vehicle(make, model) {
 }
 
 Vehicle.prototype.startEngine = function() {
-  console.log(`The ${this._make} ${this._model} engine is starting`.);
+  console.log(`The ${this._make} ${this._model} engine is starting.`);
 }
 
 // Test the Vehicle prototype
